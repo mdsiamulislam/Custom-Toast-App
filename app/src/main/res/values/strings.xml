@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Custom Toast App</string>
+    <string name="todo">TODO</string>
+    <string name="click_toast_nfor_see_custom_toast">Click toast \nFor see custom toast</string>
 </resources>

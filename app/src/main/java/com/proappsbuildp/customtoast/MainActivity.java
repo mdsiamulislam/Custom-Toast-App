@@ -38,15 +38,5 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        textView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                String url = "https://www.hellosiam.xyz/2023/05/01/custom-toast-in-android/";
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(url));
-                startActivity(i);
-
-            }
-        });
     }
 }
